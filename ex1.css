@@ -1,0 +1,28 @@
+.zig-zag {
+  padding-left: 10px;
+}
+.container {
+  padding: 120px 123px;
+}
+
+.cars-container {
+  border-top: 5PX solid #E8E8E8;
+  padding: 50px 200px 10px 10px;
+  width: fit-content;
+}
+
+.cars-container div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.cars-container div:nth-child(odd) {
+  background-color: #FFFF00;
+  margin-bottom: 50px;
+}
+
+.cars-container div:nth-child(even) {
+  background-color: #008001;
+  margin-top: 50px;
+}
